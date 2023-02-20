@@ -26,6 +26,10 @@
             <li>Learn Javascript</li>
             <li>Make several websites</li>
         <p>Tags: HTML, CSS, Javascript</p>
+        <p>
+            <label for="comms">Comments, not really.</label>
+            <textarea name="comments" id="comms" cols="30" rows="10" placeholder="Type a comment here"></textarea>
+        </p>
         </ol>
         </article>
     </main>
@@ -77,19 +81,53 @@
     <div>
         <p>This form doesn't really work, enjoy!</p>
         <h3>Demo Form</h3>
-        <form action="">
+        <form action="/form">
             <label for="textbox">Enter some text</label>
             <input id="textbox" type="text" placeholder="Some Text">
             <label for="password">Enter something secret</label>
             <input id="password" type="password" placeholder="Some Secret Text">
             <label for="colorselect">Choose a colour</label>
-            <input id="colorselect" type="color">
+            <input id="colorselect" type="color" name="color">
+            <label for="select">Check the box, or not.</label>
+            <input type="checkbox" name="select" id="select">
+            <label for="s">S:</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M:</label>
+            <input type="radio" name="size" id="m" value="m">
+            <label for="l">L:</label>
+            <input type="radio" name="size" id="l" value="l">
             <input type="reset">
+        </form>
+        <p><form>
+            <label for="filmc">Please select one:</label>
+            <select name="film" id="filmc">
+                <option value="bttf">Back to the Future</option>
+                <option value="indj">Indiana Jones</option>
+                <option value="trmr">Terminator</option>
+            </select>
+            <button>Submit</button>
+        </form>
+        </p>
+        <h3>Validations Demo</h3>
+        <form action="/test">
+            <label for="first">First Name</label>
+            <input type="text" name="first" id="first" required>
+            <label for="usernames">Username</label>
+            <input type="text" name="usernames" id="usernamess" minlength="5" maxlength="20" required>
+            <button>Submit</button>
+        </form>
+        <p>
+        <button>Do not press this button!</button>
+        </p>
+        <h3>Search the web</h3>
+        <form action="https://www.google.com/search">
+            <input type="text" name="q">
+            <button>Search Google</button>
         </form>
     </div>
     <footer>
         <p>This is my website.</p>
-        <p>Last updated: 19/02/2023.</p>
+        <p>Last updated: 20/02/2023.</p>
     </footer>
     </body>
 </html>
