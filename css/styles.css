@@ -6,7 +6,7 @@ h1 {
     font-family: Arial, sans-serif;
 }
 
-h2 {
+h2, h3 {
     color: #045D5D;
     text-align: center;
     text-decoration: underline 1px;
@@ -19,4 +19,37 @@ table {
 
 a {
     text-decoration: none;
+}
+
+#comments {
+    background-color: antiquewhite;
+}
+
+span {
+    color: blueviolet;
+}
+
+.tag {
+    background-color: beige;
+}
+
+li a {
+    color: black;
+}
+
+input[type="text"] {
+    color: rgb(128, 0, 85);
+}
+
+a:hover {
+    color:rgb(128, 0, 85);
+    text-decoration: underline;
+}
+
+button:active {
+    background-color: aquamarine;
+}
+
+.tag:nth-of-type(2n) {
+    color:chocolate;
 }
