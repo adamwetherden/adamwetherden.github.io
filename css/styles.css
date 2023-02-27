@@ -42,13 +42,15 @@ a:visited {
 } */
 
 article {
-    border-width: 10px;
+    border-width: 5px;
     border-style: solid;
     border-color: #284B63;
     border-radius: 10px;
 }
 
 #profilephoto {
+    width: 200px;
+    height: 200px;
     border: 5px solid #3C6E71;
     border-radius: 50%;
 }
