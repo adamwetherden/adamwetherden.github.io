@@ -49,8 +49,11 @@ article {
 }
 
 #profilephoto {
-    width: 200px;
-    height: 200px;
     border: 5px solid #3C6E71;
     border-radius: 50%;
+}
+
+img {
+    width: 200px;
+    height: 200px;
 }
