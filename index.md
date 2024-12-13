@@ -4,4 +4,4 @@ layout: default
 ---
 
 # Welcome to My Data Analytics Portfolio
-Hi, I'm [Your Name]. Explore my projects and skills below!
+Hi, I'm Adam. Explore my projects and skills below!
